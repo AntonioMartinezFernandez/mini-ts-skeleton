@@ -4,6 +4,7 @@
 
 ### Technologies
 
+- NodeJS
 - Express web framework
 - Unit testing with Jest
 - MongoDB database with Mongoose
@@ -11,6 +12,7 @@
 
 ### Features
 
+- Git commit linter (Husky)
 - HTTP Requests Security (Helmet, CORS, HTTP Parameter Pollution)
 - Compressed HTTP Responses (Compression)
 - Routes Autoloading
@@ -21,6 +23,8 @@
 
 ### Endpoints
 
+- **GET /kata** - _Used for katas with GET_
+- **POST /kata** - _Used for katas with POST_
 - **GET /api/v1** - _Return server status_
 - **GET /api/v1/user/all** - _Return all users_
 - **GET /api/v1/user/find/:id** - _Return user with id equal to :id_
